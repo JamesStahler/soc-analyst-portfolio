@@ -29,5 +29,4 @@ My goal is to land an entry-level SOC Analyst role and continue growing my skill
 
 ## Contact
 [LinkedIn](https://www.linkedin.com/in/james-stahler)
-[Phone Number](937-244-7752)
-[Email](J.Stahler@aol.com)
+
