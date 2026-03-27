@@ -1,31 +1,33 @@
-# SOC Analyst Portfolio – James Stahler
-
-I am Cybersecurity Analyst (SOC-Foused) building hands-on experience through cybersecurity labs, practical exercises, and home projects.
+# SOC Analyst Portfolio - James Stahler
 
 ## About Me
-I am transitioning into cybersecurity with a focus on SOC analyst work, threat detection, log analysis, and security monitoring. My background includes manufacturing, EMS, and technical field work, which has helped me build discipline, problem-solving skills, and the ability to stay calm under pressure.
+Aspiring SOC Analyst with a background in manufacturing and emergency medical services, currently transitioning into cybersecurity.
 
-I am currently developing hands-on skills through labs and portfolio projects to demonstrate practical readiness for an entry-level cybersecurity role.
+I completed the Google Cybersecurity Certificate and I am building hands-on experience in:
+- Network traffic analysis
+- Threat detection
+- Log analysis
+- Incident response
+- Security tools and investigations
 
-## Skills in Progress
-- Network scanning with Nmap
-- Packet analysis with Wireshark
-- Linux fundamentals and system hardening
-- SIEM and log analysis
-- Windows and command-line basics
-- Security monitoring concepts
-- Incident investigation fundamentals
+## Tools & Technologies
+- Wireshark
+- Splunk
+- Nmap
+- Linux
+- Windows Event Viewer
+- Python (beginner)
 
-## Portfolio Projects
-- [Nmap Scanning Lab](./nmap-scanning/README.md)
-- [Wireshark Analysis](./wireshark-analysis/README.md)
-- [Linux Hardening Lab](./linux-hardening/README.md)
-- [SIEM Lab](./siem-lab/README.md)
+## Projects
+### Nmap Network Scan Analysis
+Documented a basic scan of my local machine, identified open ports, and explained possible security risks.
 
-## Goal
-My goal is to obtain an entry-level SOC Analyst or cybersecurity-related role where I can continue building real-world defensive security skills.
+More projects will be added as I continue building hands-on cybersecurity experience.
 
-## Current Focus
-- Building a professional cybersecurity portfolio
-- Documenting labs clearly for recruiters and hiring managers
-- Strengthening blue-team and SOC fundamentals
+## Career Goal
+My goal is to land an entry-level SOC Analyst role and continue growing my skills in threat detection, incident response, and security operations.
+
+## Contact
+[LinkedIn](https://www.linkedin.com/in/james-stahler)
+[Phone Number](937-244-7752)
+[Email](J.Stahler@aol.com)
