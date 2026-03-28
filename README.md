@@ -19,7 +19,7 @@ I completed the Google Cybersecurity Certificate and I am building hands-on expe
 - Python (beginner)
 
 ## Projects
-### Nmap Network Scan Analysis
+### [Nmap Network Scan Analysis](./projects/nmap-analysis/report.md)
 Documented a basic scan of my local machine, identified open ports, and explained possible security risks.
 
 More projects will be added as I continue building hands-on cybersecurity experience.
