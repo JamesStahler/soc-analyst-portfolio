@@ -42,3 +42,23 @@ Observed the TCP handshake (SYN, SYN-ACK, ACK).
 
 ## Outcome
 Developed hands-on experience in packet analysis and network investigation.
+# Wireshark Network Traffic Analysis & Packet Investigation
+
+## Objective
+...
+
+## Tools Used
+...
+
+## What I Did
+...
+
+## Key Findings & Analysis
+...
+
+## SOC Relevance
+...
+
+## Screenshots
+...
+
