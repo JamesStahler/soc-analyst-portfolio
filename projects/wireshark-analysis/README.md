@@ -29,6 +29,12 @@ Observed the TCP handshake (SYN, SYN-ACK, ACK).
 
 ## Screenshots
 
+*Example of HTTP GET request showing unencrypted traffic*
+
+*DNS query resolving a domain to an IP address*
+
+*TCP stream showing full communication between client and server*
+
 ![HTTP Traffic](./http-traffic.png)
 
 ![DNS Query](./dns-query.png)
