@@ -37,7 +37,7 @@ Observed the TCP handshake (SYN, SYN-ACK, ACK).
 
 ![HTTP Traffic](./http-traffic.png)
 
-![DNS Query](./dns-query.png)
+![DNS Query]([./dns-query.png](https://github.com/JamesStahler/soc-analyst-portfolio/blob/main/projects/wireshark-analysis/WIRESHARK-DNS.png))
 
 ![TCP Stream](./tcp-stream.png)
 
