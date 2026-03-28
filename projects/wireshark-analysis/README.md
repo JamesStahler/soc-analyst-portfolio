@@ -29,18 +29,13 @@ Observed the TCP handshake (SYN, SYN-ACK, ACK).
 
 ## Screenshots
 
-*Example of HTTP GET request showing unencrypted traffic*
+## Screenshots
 
-*DNS query resolving a domain to an IP address*
+![HTTP Traffic](./WIRESHARK-HTTP.png)
 
-*TCP stream showing full communication between client and server*
+![DNS Query](./WIRESHARK-DNS.png)
 
-![HTTP Traffic](./http-traffic.png)
-
-![DNS Query]([./dns-query.png](https://github.com/JamesStahler/soc-analyst-portfolio/blob/main/projects/wireshark-analysis/WIRESHARK-DNS.png))
-
-![TCP Stream](./tcp-stream.png)
-
+![TCP Stream](./WIRESHARK-TCP.png)
 ## Security Insight
 - HTTP traffic is not encrypted and can be intercepted
 - DNS queries reveal browsing behavior
