@@ -31,11 +31,11 @@ Observed the TCP handshake (SYN, SYN-ACK, ACK).
 
 ## Screenshots
 
-![HTTP Traffic](./WIRESHARK-HTTP.png)
+HTTP [HTTP Traffic](./WIRESHARK-HTTP.png)
 
-![DNS Query](./WIRESHARK-DNS.png)
+DNS [DNS Query](./WIRESHARK-DNS.png)
 
-![TCP Stream](./WIRESHARK-TCP.png)
+TCP [TCP Stream](./WIRESHARK-TCP.png)
 ## Security Insight
 - HTTP traffic is not encrypted and can be intercepted
 - DNS queries reveal browsing behavior
