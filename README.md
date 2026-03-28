@@ -1,32 +1,39 @@
-# SOC Analyst Portfolio - James Stahler
+# SOC Analyst Portfolio – James Stahler
 
-## About Me
-Aspiring SOC Analyst with a background in manufacturing and emergency medical services, currently transitioning into cybersecurity.
+Aspiring SOC Analyst with hands-on experience in network analysis, log investigation, and security tools including Nmap and Wireshark.
 
-I completed the Google Cybersecurity Certificate and I am building hands-on experience in:
-- Network traffic analysis
-- Threat detection
-- Log analysis
-- Incident response
-- Security tools and investigations
-
-## Tools & Technologies
-- Wireshark
-- Splunk
-- Nmap
-- Linux
-- Windows Event Viewer
-- Python (beginner)
+## Skills
+- Network Traffic Analysis (Wireshark)
+- Port Scanning & Enumeration (Nmap)
+- Windows Event Log Analysis
+- TCP/IP, DNS, HTTP/S
+- Security Monitoring & Threat Detection
 
 ## Projects
-### [Nmap Network Scan Analysis](./projects/nmap-analysis/report.md)
-Documented a basic scan of my local machine, identified open ports, and explained possible security risks.
 
-More projects will be added as I continue building hands-on cybersecurity experience.
+### 🔍 Nmap Network Scan Analysis
+Performed network reconnaissance to identify open ports and potential attack surfaces.
 
-## Career Goal
-My goal is to land an entry-level SOC Analyst role and continue growing my skills in threat detection, incident response, and security operations.
+👉 [View Project](./projects/nmap-analysis)
 
-## Contact
-[LinkedIn](https://www.linkedin.com/in/james-stahler)
+---
 
+### 🌐 Wireshark Traffic Analysis
+Captured and analyzed network traffic to inspect protocols and identify communication patterns.
+
+👉 [View Project](./projects/wireshark-analysis)
+
+---
+
+### 🖥️ Windows Log Analysis
+Investigated failed login attempts using Windows Event Viewer (Event ID 4625).
+
+👉 [View Project](./projects/windows-log-analysis)
+
+---
+
+## Tools
+Wireshark | Nmap | Windows Event Viewer
+
+## Goal
+Seeking an entry-level SOC Analyst position where I can apply my skills in monitoring, analysis, and incident response.
