@@ -62,3 +62,5 @@ Developed hands-on experience in packet analysis and network investigation.
 ## Screenshots
 ...
 
+## Analyst Summary
+This analysis demonstrates the ability to inspect network traffic, identify protocols, and evaluate potential security risks. While no malicious activity was detected, the workflow mirrors real-world SOC investigations where analysts must quickly determine whether traffic is normal or suspicious.
