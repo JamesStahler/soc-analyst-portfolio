@@ -1,39 +1,70 @@
-# SOC Analyst Portfolio – James Stahler
+# Cybersecurity Projects Portfolio
 
-Aspiring SOC Analyst with hands-on experience in network analysis, log investigation, and security tools including Nmap and Wireshark.
-
-## Skills
-- Network Traffic Analysis (Wireshark)
-- Port Scanning & Enumeration (Nmap)
-- Windows Event Log Analysis
-- TCP/IP, DNS, HTTP/S
-- Security Monitoring & Threat Detection
-
-## Projects
-
-### 🔍 Nmap Network Scan Analysis
-Performed network reconnaissance to identify open ports and potential attack surfaces.
-
-👉 [View Project](./projects/nmap-analysis)
+This directory contains hands-on cybersecurity projects demonstrating practical skills in network analysis, system monitoring, and security-focused troubleshooting. Each project focuses on real-world scenarios using industry-relevant tools and methodologies.
 
 ---
 
-### 🌐 Wireshark Traffic Analysis
-Captured and analyzed network traffic to inspect protocols and identify communication patterns.
+## 📁 Projects
 
-👉 [View Project](./projects/wireshark-analysis)
+### 🔍 Nmap Analysis
+
+Performed network scanning to identify open ports and exposed services. This project demonstrates understanding of network reconnaissance, port scanning techniques, and service enumeration.
+
+**Skills:** Network Scanning, Port Analysis, Enumeration
+**Tools:** Nmap
+
+---
+
+### 📡 Wireshark Analysis
+
+Captured and analyzed network traffic to identify protocols, DNS activity, and packet-level behavior. This project highlights packet inspection and traffic analysis skills.
+
+**Skills:** Packet Analysis, Protocol Identification, Network Traffic Investigation
+**Tools:** Wireshark
 
 ---
 
 ### 🖥️ Windows Log Analysis
-Investigated failed login attempts using Windows Event Viewer (Event ID 4625).
 
-👉 [View Project](./projects/windows-log-analysis)
+Analyzed Windows Event Viewer logs to investigate system activity and identify potential security events such as failed login attempts and system errors.
+
+**Skills:** Log Analysis, Event Investigation, Threat Detection Basics
+**Tools:** Windows Event Viewer
 
 ---
 
-## Tools
-Wireshark | Nmap | Windows Event Viewer
+### ⚡ Windows System Optimization & Performance Analysis
 
-## Goal
-Seeking an entry-level SOC Analyst position where I can apply my skills in monitoring, analysis, and incident response.
+Diagnosed and improved system performance using PowerShell and built-in Windows tools. This project includes system cleanup, performance analysis, and system integrity verification.
+
+**Skills:** System Troubleshooting, Performance Optimization, PowerShell
+**Tools:** PowerShell, DISM, SFC
+
+---
+
+## 🧠 Key Skills Demonstrated
+
+* Network traffic analysis and packet inspection
+* System and security log investigation
+* Performance troubleshooting and optimization
+* Use of command-line tools (PowerShell, Nmap)
+* Basic incident analysis and problem-solving
+
+---
+
+## 🎯 Objective
+
+The goal of these projects is to build practical, hands-on experience aligned with entry-level cybersecurity and SOC analyst roles. Each project is designed to simulate real-world tasks performed in IT support and security operations environments.
+
+---
+
+## 🚀 Continuous Improvement
+
+This portfolio is actively being expanded with additional projects focused on:
+
+* SIEM tools and log correlation
+* Threat detection and response
+* Automation using PowerShell and Python
+* Vulnerability scanning and analysis
+
+---
