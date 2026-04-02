@@ -29,8 +29,6 @@ Observed the TCP handshake (SYN, SYN-ACK, ACK).
 
 ## Screenshots
 
-## Screenshots
-
 HTTP [HTTP Traffic](./WIRESHARK-HTTP.png)
 
 DNS [DNS Query](./WIRESHARK-DNS.png)
