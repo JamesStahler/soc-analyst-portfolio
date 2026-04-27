@@ -6,7 +6,7 @@ Welcome to my cybersecurity portfolio. This repository showcases hands-on projec
 
 ## Quick Access
 - **Portfolio Website:** [View Portfolio](https://sites.google.com/view/james-stahler/home)
-- **Resume (PDF):** [Download Resume]([https://drive.google.com/file/d/1F6KXmogRQEgW--6djKR-RTdbbLcdYprv/view?usp=drive_link](https://github.com/JamesStahler/soc-analyst-portfolio/blob/main/James_Stahler_Resume1.pdf))
+- **Resume (PDF):** [Download Resume](https://github.com/JamesStahler/soc-analyst-portfolio/blob/main/James_Stahler_Resume1.pdf)
 - **Projects:** [Browse Projects](https://github.com/JamesStahler/soc-analyst-portfolio/tree/main/projects)
 - **LinkedIn:** [Connect with Me](https://www.linkedin.com/in/james-stahler)
 
