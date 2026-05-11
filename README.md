@@ -30,3 +30,26 @@ I focus on:
 
  View all projects here:  
 https://github.com/JamesStahler/soc-analyst-portfolio/tree/main/projects
+
+## Active Directory Homelab
+
+Built a Windows Server Active Directory homelab using VirtualBox to simulate enterprise domain administration and identity management.
+
+### Skills Demonstrated
+- Active Directory Domain Services (AD DS)
+- DNS configuration
+- Domain controller deployment
+- Domain user management
+- Workstation domain joining
+- Windows networking
+- Authentication validation
+- Virtualization
+
+### Technologies Used
+- Windows Server 2022
+- Windows 10
+- VirtualBox
+- PowerShell
+- Command Prompt
+
+[View Project](https://github.com/JamesStahler/active-directory-homelab)
