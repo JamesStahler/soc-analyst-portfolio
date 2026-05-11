@@ -101,7 +101,7 @@ Built a Windows Server Active Directory homelab using VirtualBox to simulate ent
 🔗 **Project Link:**  
 [View Active Directory Homelab](https://github.com/JamesStahler/active-directory-homelab)
 
-![AD Lab Screenshot](./projects/ad-image.png)
+![AD Lab Screenshot](https://github.com/JamesStahler/active-directory-homelab/blob/main/screenshots/08-domain-join-authentication/07-aduc-users-after-domain-authentication.png)
 
 ---
 
