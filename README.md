@@ -135,7 +135,7 @@ View System Optimization Analysis
 
 Resume
 
-Upload your resume PDF directly into this repository and replace the link below.
+(https://github.com/JamesStahler/soc-analyst-portfolio/blob/main/James_Stahler_IT_Resume.pdf)
 
 Example:
 
