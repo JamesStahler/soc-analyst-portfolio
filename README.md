@@ -1,165 +1,203 @@
-James Stahler | Cybersecurity & IT Portfolio
-About Me
+# James Stahler | Cybersecurity & IT Portfolio
 
-I am an aspiring cybersecurity and IT professional currently pursuing a Bachelor of Science in Cybersecurity and Information Assurance at WGU. My background includes hands-on troubleshooting experience in telecommunications, emergency medical services, manufacturing, and infrastructure-related environments.
+## About Me
 
-I am actively developing practical skills in:
+Aspiring cybersecurity and IT professional currently pursuing a **B.S. in Cybersecurity & Information Assurance at Western Governors University (WGU)**.
 
-Active Directory
-Windows Server Administration
-Network Troubleshooting
-SOC Fundamentals
-Windows Log Analysis
-Network Traffic Analysis
-Virtualization
-Infrastructure Support
+My background includes hands-on troubleshooting and technical experience across:
+- Telecommunications
+- Infrastructure support
+- Manufacturing operations
+- Emergency medical services
 
-This portfolio showcases hands-on labs, technical analysis projects, and infrastructure-focused homelab environments.
+I am actively building practical skills through:
+- Homelab environments
+- Windows Server administration
+- Active Directory projects
+- Network analysis labs
+- Security-focused technical documentation
 
-Certifications
-CompTIA A+
-Google Cybersecurity Professional Certificate
-Current Focus
-Active Directory & Windows Server
-Network troubleshooting
-Windows administration
-SOC analyst fundamentals
-Infrastructure and data center technologies
-CompTIA Network+
-Technical Skills
-Operating Systems
-Windows 10/11
-Windows Server 2022
-Linux Fundamentals
-Networking
-TCP/IP
-DNS
-DHCP
-NAT
-VLAN fundamentals
-Network troubleshooting
-Wireshark packet analysis
-Cybersecurity
-SIEM fundamentals
-Windows log analysis
-Threat detection concepts
-Vulnerability analysis
-Security monitoring
-Tools & Technologies
-Active Directory
-VirtualBox
-PowerShell
-Command Prompt
-Nmap
-Wireshark
-GitHub
-Featured Projects
-Active Directory Homelab
+This portfolio showcases hands-on infrastructure, networking, and cybersecurity projects focused on real-world IT administration and troubleshooting.
+
+---
+
+# Certifications
+
+- Google Cybersecurity Professional Certificate
+- CompTIA A+ Core 1 Passed
+- CompTIA A+ Core 2 (In Progress)
+
+---
+
+# Current Focus Areas
+
+- Active Directory & Windows Server
+- Network troubleshooting
+- Windows administration
+- SOC analyst fundamentals
+- Infrastructure support
+- Data center technologies
+- CompTIA Network+
+
+---
+
+# Technical Skills
+
+## Operating Systems
+- Windows 10/11
+- Windows Server 2022
+- Linux Fundamentals
+
+## Networking
+- TCP/IP
+- DNS
+- DHCP
+- NAT
+- VLAN Fundamentals
+- Network Troubleshooting
+- Wireshark Packet Analysis
+
+## Cybersecurity
+- SIEM Fundamentals
+- Windows Log Analysis
+- Threat Detection Concepts
+- Vulnerability Analysis
+- Security Monitoring
+
+## Tools & Technologies
+- Active Directory
+- VirtualBox
+- PowerShell
+- Command Prompt
+- Nmap
+- Wireshark
+- GitHub
+
+---
+
+# Featured Projects
+
+## 🖥️ Active Directory Homelab
 
 Built a Windows Server Active Directory homelab using VirtualBox to simulate enterprise identity management and Windows domain administration.
 
-Skills Demonstrated
-Active Directory Domain Services (AD DS)
-DNS configuration
-Domain controller deployment
-Organizational Units (OUs)
-Domain authentication
-Windows networking
-Virtualization
-Troubleshooting
-Technologies Used
-Windows Server 2022
-Windows 10
-VirtualBox
-PowerShell
-Command Prompt
-Project Link
+### Skills Demonstrated
+- Active Directory Domain Services (AD DS)
+- DNS Configuration
+- Domain Controller Deployment
+- Organizational Units (OUs)
+- Domain Authentication
+- Windows Networking
+- Virtualization
+- Troubleshooting
 
-View Active Directory Homelab
+### Technologies Used
+- Windows Server 2022
+- Windows 10
+- VirtualBox
+- PowerShell
+- Command Prompt
 
-Wireshark Network Traffic Analysis
+🔗 **Project Link:**  
+[View Active Directory Homelab](https://github.com/JamesStahler/active-directory-homelab)
 
-Performed packet analysis using Wireshark to examine network traffic, identify protocols, and analyze communication behavior.
+---
 
-Skills Demonstrated
-Packet analysis
-Protocol identification
-Traffic inspection
-Network troubleshooting
-TCP/IP fundamentals
-Project Link
+## 🌐 Wireshark Network Traffic Analysis
 
-View Wireshark Analysis
+Performed packet analysis using Wireshark to inspect network traffic, identify protocols, and analyze communication behavior.
 
-Nmap Network Scanning Analysis
+### Skills Demonstrated
+- Packet Analysis
+- Protocol Identification
+- Traffic Inspection
+- Network Troubleshooting
+- TCP/IP Fundamentals
+
+🔗 **Project Link:**  
+[View Wireshark Analysis](https://github.com/JamesStahler/soc-analyst-portfolio/tree/main/projects/wireshark-analysis)
+
+---
+
+## 🔍 Nmap Network Scanning Analysis
 
 Conducted network discovery and service enumeration using Nmap to identify hosts, ports, and exposed services.
 
-Skills Demonstrated
-Port scanning
-Service enumeration
-Network discovery
-Security analysis
-Reconnaissance fundamentals
-Project Link
+### Skills Demonstrated
+- Port Scanning
+- Service Enumeration
+- Network Discovery
+- Security Analysis
+- Reconnaissance Fundamentals
 
-View Nmap Analysis
+🔗 **Project Link:**  
+[View Nmap Analysis](https://github.com/JamesStahler/soc-analyst-portfolio/tree/main/projects/nmap-analysis)
 
-Windows Log Analysis
+---
 
-Analyzed Windows event logs to identify system activity, authentication events, and potential security-relevant behaviors.
+## 📋 Windows Log Analysis
 
-Skills Demonstrated
-Windows Event Viewer
-Log analysis
-Authentication monitoring
-System troubleshooting
-Security event analysis
-Project Link
+Analyzed Windows event logs to identify authentication activity, system events, and security-relevant behavior.
 
-View Windows Log Analysis
+### Skills Demonstrated
+- Windows Event Viewer
+- Log Analysis
+- Authentication Monitoring
+- Security Event Analysis
+- System Troubleshooting
 
-Windows System Optimization Analysis
+🔗 **Project Link:**  
+[View Windows Log Analysis](https://github.com/JamesStahler/soc-analyst-portfolio/tree/main/projects/windows-log-analysis)
 
-Documented system optimization and troubleshooting procedures focused on Windows performance, configuration, and maintenance.
+---
 
-Skills Demonstrated
-System troubleshooting
-Windows optimization
-Performance analysis
-Administrative tools
-Windows utilities
-Project Link
+## ⚙️ Windows System Optimization Analysis
 
-View System Optimization Analysis
+Documented system optimization and troubleshooting procedures focused on Windows performance and maintenance.
 
-Resume
+### Skills Demonstrated
+- Windows Optimization
+- Performance Analysis
+- Administrative Tools
+- System Troubleshooting
+- Windows Utilities
 
-(https://github.com/JamesStahler/soc-analyst-portfolio/blob/main/James_Stahler_IT_Resume.pdf)
+🔗 **Project Link:**  
+[View System Optimization Analysis](https://github.com/JamesStahler/soc-analyst-portfolio/tree/main/projects/windows-system-optimization-analysis)
 
-Example:
+---
 
-View Resume
+# Resume
 
-Education
-Western Governors University (WGU)
+📄 [View Resume](./James_Stahler_IT_Resume.pdf)
 
-Bachelor of Science — Cybersecurity and Information Assurance (In Progress)
+---
 
-Clark State College
+# Education
 
+## Western Governors University (WGU)
+**Bachelor of Science — Cybersecurity & Information Assurance** *(In Progress)*
+
+## Clark State College
 Computer Programming Studies
 
-Contact Information
-LinkedIn: https://linkedin.com/in/james-stahler
-GitHub: https://github.com/JamesStahler
-Portfolio: https://jamesstahler.github.io/cybersecurity-portfolio/
-Career Interests
-SOC Analyst
-NOC Technician
-IT Support Specialist
-Desktop Support
-Infrastructure Support
-Data Center Technician
-Systems Administration
-Cybersecurity Operations
+---
+
+# Contact Information
+
+- LinkedIn: https://linkedin.com/in/james-stahler
+- GitHub: https://github.com/JamesStahler
+- Portfolio Website: https://jamesstahler.github.io/cybersecurity-portfolio/
+
+---
+
+# Career Interests
+
+- SOC Analyst
+- NOC Technician
+- IT Support Specialist
+- Desktop Support Technician
+- Infrastructure Support
+- Data Center Technician
+- Systems Administration
+- Cybersecurity Operations
