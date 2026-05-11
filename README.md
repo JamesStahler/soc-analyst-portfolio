@@ -101,6 +101,8 @@ Built a Windows Server Active Directory homelab using VirtualBox to simulate ent
 🔗 **Project Link:**  
 [View Active Directory Homelab](https://github.com/JamesStahler/active-directory-homelab)
 
+![AD Lab Screenshot](./projects/ad-image.png)
+
 ---
 
 ## 🌐 Wireshark Network Traffic Analysis
