@@ -29,6 +29,18 @@ This portfolio showcases hands-on infrastructure, networking, and cybersecurity 
 
 ---
 
+
+# Currently Learning
+
+- Active Directory administration
+- Group Policy fundamentals
+- PowerShell basics
+- Network infrastructure concepts
+- Security monitoring workflows
+- Windows enterprise administration
+
+---
+
 # Current Focus Areas
 
 - Active Directory & Windows Server
