@@ -22,7 +22,7 @@ My background combines hands-on technical support, networking, systems troublesh
 
 ## Technical Skills
 
-**Security & GRC:** NIST Cybersecurity Framework, HIPAA privacy and security awareness, security controls, risk assessment fundamentals, vulnerability analysis, incident documentation, log analysis, SIEM and IDS fundamentals
+**Security & GRC:** NIST Cybersecurity Framework, MITRE ATT&CK Framework fundamentals, HIPAA privacy and security awareness, security controls, risk assessment fundamentals, vulnerability analysis, incident documentation, log analysis, SIEM and IDS fundamentals
 
 **Systems:** Windows 10/11, Windows Server 2022, Active Directory Domain Services, Group Policy, DNS, user and group administration, Windows Event Viewer
 
@@ -40,9 +40,9 @@ Built a Windows Server 2022 domain environment with AD DS, DNS, Organizational U
 **Skills:** Windows Server, Active Directory, DNS, identity administration, virtualization, troubleshooting
 
 ### 🎓 [Google Cybersecurity Professional Certificate Labs](./projects/google-cybersecurity-certificate-labs)
-Organized coursework and completed deliverables covering governance, risk and compliance, incident response, network security, Linux, SQL, Python, SIEM, IDS, threat modeling, and vulnerability management.
+Organized coursework and completed deliverables covering governance, risk and compliance, incident response, network security, Linux, SQL, Python, SIEM, IDS, MITRE ATT&CK fundamentals, threat modeling, and vulnerability management.
 
-**Skills:** NIST, risk assessments, security controls, incident documentation, tcpdump, Linux permissions, SQL filtering, Python foundations
+**Skills:** NIST, MITRE ATT&CK fundamentals, risk assessments, security controls, incident documentation, tcpdump, Linux permissions, SQL filtering, Python foundations
 
 ### 🪟 [Windows Security Log Analysis](./projects/windows-log-analysis)
 Investigated failed authentication activity in Windows Event Viewer, identified Event ID 4625, reviewed logon metadata, and documented a SOC-style analysis workflow.
