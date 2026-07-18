@@ -1,31 +1,71 @@
-# James Stahler | Cybersecurity Portfolio
+# Cybersecurity & IT Projects
 
-Welcome to my cybersecurity portfolio. This repository showcases hands-on projects demonstrating practical skills in network analysis, threat detection, and system troubleshooting.
+This directory contains hands-on labs and technical analyses demonstrating practical skills in **security operations, networking, Windows administration, system troubleshooting, and governance, risk, and compliance (GRC)**.
 
----
-
-##  Quick Access
--  **Portfolio Website:** [View Portfolio](https://sites.google.com/view/james-stahler/home)
--  **Resume (PDF):** [Download Resume](https://drive.google.com/file/d/1F6KXmogRQEgW--6djKR-RTdbbLcdYprv/view?usp=drive_link)
--  **Projects:** [Browse Projects](https://github.com/JamesStahler/soc-analyst-portfolio/tree/main/projects)
+Each project includes documentation of the objective, tools used, methodology, findings, security relevance, and lessons learned.
 
 ---
 
-##  About Me
-Aspiring SOC Analyst with hands-on experience using tools such as **Wireshark, Nmap, and Windows Event Viewer**. Currently pursuing a **Bachelor’s degree in Cybersecurity and Information Assurance (WGU)**.
+## Project Directory
 
-I focus on:
-- Network traffic analysis  
-- Threat detection and response  
-- Log analysis and troubleshooting  
-- Building practical home lab environments  
+### 🎓 [Google Cybersecurity Professional Certificate Labs](./google-cybersecurity-certificate-labs)
+Selected completed coursework from Google’s eight-course cybersecurity program, organized by professional domain.
+
+**Topics covered:**
+- NIST Cybersecurity Framework
+- Security audits, controls, and compliance
+- Risk and vulnerability assessments
+- Incident response and phishing analysis
+- Network traffic investigation
+- Linux, SQL, and beginner Python
+- SIEM and IDS fundamentals
+
+### 🪟 [Windows Security Log Analysis](./windows-log-analysis)
+Reviewed Windows Security logs and investigated failed login activity, including Event ID 4625 and interactive logon metadata.
+
+**Skills:** Event Viewer, authentication monitoring, log analysis, SOC investigation workflow
+
+### 🌐 [Wireshark Traffic Analysis](./wireshark-analysis)
+Captured live network traffic, filtered HTTP, DNS, and TCP packets, followed TCP streams, and documented protocol behavior and security implications.
+
+**Skills:** Packet analysis, protocol identification, network investigation, TCP/IP
+
+### 🔍 [Nmap Network Scanning Analysis](./nmap-analysis)
+Used Nmap and Zenmap to scan a Windows system, identify open ports and services, and evaluate potential exposure associated with RPC and SMB.
+
+**Skills:** Network reconnaissance, port scanning, service enumeration, vulnerability awareness
+
+### ⚙️ [Windows System Optimization & Performance Analysis](./windows-system-optimization-analysis)
+Diagnosed Windows performance issues and used PowerShell, SFC, DISM, Task Manager, and Windows utilities to improve system health and responsiveness.
+
+**Skills:** PowerShell, performance analysis, Windows troubleshooting, root-cause analysis
 
 ---
 
-##  Featured Projects
--  Wireshark Traffic Analysis  
--  Nmap Network Scanning  
--  Security Monitoring & Detection Labs  
+## Related Infrastructure Project
 
- View all projects here:  
-https://github.com/JamesStahler/soc-analyst-portfolio/tree/main/projects
+### 🏢 [Active Directory Enterprise Homelab](https://github.com/JamesStahler/active-directory-homelab)
+Built a Windows Server 2022 Active Directory environment with AD DS, DNS, Organizational Units, users, groups, and Windows domain authentication.
+
+---
+
+## Skills Demonstrated Across This Portfolio
+
+- Security monitoring and incident documentation
+- Windows Event Log analysis
+- Network packet analysis and reconnaissance
+- NIST and GRC fundamentals
+- Risk, vulnerability, and controls assessments
+- Windows Server and Active Directory administration
+- PowerShell and Windows troubleshooting
+- Linux, SQL, and Python foundations
+- Clear technical writing and evidence-based analysis
+
+---
+
+## Quick Links
+
+- **[Main Repository](../)**
+- **[Portfolio Website](https://jamesstahler.github.io/cybersecurity-portfolio/)**
+- **[LinkedIn](https://www.linkedin.com/in/james-stahler)**
+- **[GitHub Profile](https://github.com/JamesStahler)**
