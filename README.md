@@ -22,7 +22,7 @@ My current focus is preparing for **CompTIA Network+**, expanding my Windows Ser
 
 ## 🧰 Technical Focus
 
-**Systems Administration:** Windows 10/11, Windows Server 2022, Active Directory Domain Services, DNS, Organizational Units, domain users and groups, Group Policy fundamentals, Windows Event Viewer, PowerShell, Command Prompt, VirtualBox, and Hyper-V
+**Systems Administration:** Windows 10/11, Windows Server 2022, Active Directory Domain Services, DNS, Organizational Units, domain users and groups, Group Policy fundamentals, Windows Event Viewer, PowerShell, Command Prompt, and VirtualBox
 
 **Networking:** TCP/IP, IPv4, DNS, DHCP, NAT, Wi-Fi, DOCSIS, Ethernet, OSI model, ARP, MAC/CAM tables, VLAN fundamentals, routing and switching fundamentals, packet analysis, and network troubleshooting
 
