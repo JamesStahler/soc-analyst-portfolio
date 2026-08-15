@@ -1,46 +1,61 @@
 # Wireshark Traffic Analysis Lab
 
 ## Objective
-Analyzed network traffic using Wireshark to identify protocols, inspect packets, and understand how data moves across a network.
 
-## Tools Used
+Capture and analyze network traffic to identify common protocols, follow communications, and connect packet-level evidence to network troubleshooting and security analysis.
+
+## Environment and Tools
+
 - Wireshark
-- Windows PC
-- Web browser (to generate traffic)
+- Windows computer
+- Web browser used to generate test traffic
 
-## What I Did
-- Captured live network traffic using Wireshark
-- Applied filters:
-  - http
-  - dns
-  - tcp
-- Followed TCP streams to analyze full conversations
+## Analysis Steps
 
-## Key Findings
+1. Started a live packet capture on the active network interface.
+2. Generated browser and name-resolution traffic.
+3. Applied display filters for HTTP, DNS, and TCP.
+4. Inspected packet fields and followed TCP streams to view related traffic as a conversation.
+5. Compared observed behavior across the application, transport, and network layers.
 
-### HTTP Traffic
-Observed unencrypted web traffic and GET requests.
+## Observations
 
-### DNS Queries
-Captured domain name lookups and IP resolution.
+### HTTP
 
-### TCP Communication
-Observed the TCP handshake (SYN, SYN-ACK, ACK).
+Observed HTTP requests in readable form, demonstrating that unencrypted application data may be visible to systems capable of capturing the traffic.
 
-## Screenshots
+![Filtered HTTP traffic](./WIRESHARK-HTTP.png)
 
-HTTP [HTTP Traffic](./WIRESHARK-HTTP.png)
+### DNS
 
-DNS [DNS Query](./WIRESHARK-DNS.png)
+Reviewed domain-name queries and responses used to translate hostnames into IP addresses. DNS metadata can help troubleshoot resolution problems and provide investigative context.
 
-TCP [TCP Stream](./WIRESHARK-TCP.png)
-## Security Insight
-- HTTP traffic is not encrypted and can be intercepted
-- DNS queries reveal browsing behavior
-- Packet analysis is critical for threat detection
+![DNS query and response traffic](./WIRESHARK-DNS.png)
 
-## Outcome
-Developed hands-on experience in packet analysis and network investigation.
+### TCP
 
-## Analyst Summary
-This analysis demonstrates the ability to inspect network traffic, identify protocols, and evaluate potential security risks. While no malicious activity was detected, the workflow mirrors real-world SOC investigations where analysts must quickly determine whether traffic is normal or suspicious.
+Observed TCP connection behavior, including SYN, SYN-ACK, and ACK packets associated with the three-way handshake.
+
+![TCP stream traffic](./WIRESHARK-TCP.png)
+
+## Practical Relevance
+
+This workflow supports:
+
+- Validating network connectivity
+- Troubleshooting DNS and application communication
+- Identifying protocols and endpoints
+- Establishing normal traffic patterns
+- Investigating unusual or suspicious communications
+
+No malicious activity was confirmed in this capture; the project demonstrates the analysis process and interpretation of normal traffic.
+
+## Skills Demonstrated
+
+- Packet capture and display filtering
+- TCP/IP and DNS analysis
+- TCP stream reconstruction
+- Network troubleshooting
+- Evidence-based security analysis
+
+[← Back to all projects](../)
