@@ -1,65 +1,69 @@
-# Cybersecurity & IT Projects
+# Cybersecurity, Systems & Networking Projects
 
-This directory contains hands-on labs and technical analyses demonstrating practical skills in **security operations, networking, Windows administration, system troubleshooting, and governance, risk, and compliance (GRC)**.
+This directory contains documented labs and technical analyses covering Windows administration, network troubleshooting, infrastructure support, security operations, and governance, risk, and compliance (GRC).
 
-Each project includes documentation of the objective, tools used, methodology, findings, security relevance, and lessons learned.
+Each project explains the objective, environment, tools, work performed, findings, and practical relevance.
 
 ---
 
 ## Project Directory
 
-### 🎓 [Google Cybersecurity Professional Certificate Labs](./google-cybersecurity-certificate-labs)
-Selected completed coursework from Google’s eight-course cybersecurity program, organized by professional domain.
+### 🔥 [Firewall Traffic Simulator](./firewall-traffic-simulator)
 
-**Topics covered:**
-- NIST Cybersecurity Framework
-- Security audits, controls, and compliance
-- Risk and vulnerability assessments
-- Incident response and phishing analysis
-- Network traffic investigation
-- Linux, SQL, and beginner Python
-- SIEM and IDS fundamentals
+Created an in-progress Python simulation that evaluates generated connections against IP-and-port rules, records decisions, produces alerts, and summarizes traffic.
+
+**Skills demonstrated:** Python, rule evaluation, logging, counters, alert thresholds, and traffic reporting
 
 ### 🪟 [Windows Security Log Analysis](./windows-log-analysis)
-Reviewed Windows Security logs and investigated failed login activity, including Event ID 4625 and interactive logon metadata.
 
-**Skills:** Event Viewer, authentication monitoring, log analysis, SOC investigation workflow
+Investigated failed Windows logon activity in Event Viewer and interpreted Event ID 4625 and its authentication metadata.
+
+**Skills demonstrated:** Windows Event Viewer, authentication monitoring, log analysis, investigation, and documentation
 
 ### 🌐 [Wireshark Traffic Analysis](./wireshark-analysis)
-Captured live network traffic, filtered HTTP, DNS, and TCP packets, followed TCP streams, and documented protocol behavior and security implications.
 
-**Skills:** Packet analysis, protocol identification, network investigation, TCP/IP
+Captured and filtered HTTP, DNS, and TCP traffic, followed TCP streams, and reviewed protocol behavior and security implications.
+
+**Skills demonstrated:** Packet capture, TCP/IP analysis, DNS, network troubleshooting, and security analysis
 
 ### 🔍 [Nmap Network Scanning Analysis](./nmap-analysis)
-Used Nmap and Zenmap to scan a Windows system, identify open ports and services, and evaluate potential exposure associated with RPC and SMB.
 
-**Skills:** Network reconnaissance, port scanning, service enumeration, vulnerability awareness
+Scanned a Windows test system with Nmap and Zenmap, identified listening services, and evaluated the exposure associated with RPC and SMB.
+
+**Skills demonstrated:** Host scanning, port and service identification, Windows networking, and vulnerability awareness
 
 ### ⚙️ [Windows System Optimization & Performance Analysis](./windows-system-optimization-analysis)
-Diagnosed Windows performance issues and used PowerShell, SFC, DISM, Task Manager, and Windows utilities to improve system health and responsiveness.
 
-**Skills:** PowerShell, performance analysis, Windows troubleshooting, root-cause analysis
+Diagnosed Windows performance issues using PowerShell and built-in administrative utilities, repaired system components, and reduced unnecessary startup activity.
+
+**Skills demonstrated:** PowerShell, Windows administration, performance troubleshooting, root-cause analysis, and documentation
+
+### 🎓 [Google Cybersecurity Professional Certificate Labs](./google-cybersecurity-certificate-labs)
+
+Organized selected coursework from Google’s eight-course cybersecurity program by professional domain.
+
+**Topics covered:** NIST CSF, security controls, risk assessment, incident response, network security, Linux, SQL, Python, SIEM, IDS, and threat modeling
 
 ---
 
 ## Related Infrastructure Project
 
-### 🏢 [Active Directory Enterprise Homelab](https://github.com/JamesStahler/active-directory-homelab)
-Built a Windows Server 2022 Active Directory environment with AD DS, DNS, Organizational Units, users, groups, and Windows domain authentication.
+### 🏢 [Active Directory Homelab](https://github.com/JamesStahler/active-directory-homelab)
+
+Built a Windows Server 2022 domain environment with Active Directory Domain Services, DNS, Organizational Units, users, groups, domain authentication, and a Windows client.
 
 ---
 
-## Skills Demonstrated Across This Portfolio
+## Capabilities Demonstrated
 
+- Windows administration and troubleshooting
+- TCP/IP, DNS, packet analysis, and network reconnaissance
+- Windows security-event analysis
+- Active Directory and identity-management fundamentals
 - Security monitoring and incident documentation
-- Windows Event Log analysis
-- Network packet analysis and reconnaissance
-- NIST and GRC fundamentals
-- Risk, vulnerability, and controls assessments
-- Windows Server and Active Directory administration
-- PowerShell and Windows troubleshooting
-- Linux, SQL, and Python foundations
-- Clear technical writing and evidence-based analysis
+- NIST CSF, risk, controls, and GRC fundamentals
+- PowerShell, Linux, SQL, and Python foundations
+- Clear, evidence-based technical documentation
 
 ---
 

@@ -1,67 +1,73 @@
-# Windows System Optimization & Performance Analysis
+# Windows System Optimization and Performance Analysis
 
 ## Objective
 
-The system was experiencing slow performance, likely due to accumulated temporary files, unnecessary startup programs, and potential system integrity issues.
+Diagnose Windows performance problems, perform safe corrective maintenance, and document the evidence and outcome using PowerShell and built-in administrative tools.
 
-The goal of this project was to diagnose and improve system performance using PowerShell and built-in Windows tools.
+## Environment and Tools
 
----
+- Windows
+- PowerShell
+- Task Manager
+- System File Checker (SFC)
+- Deployment Image Servicing and Management (DISM)
+- Built-in storage and network utilities
 
-## Tools Used
+## Initial Observations
 
-* PowerShell
-* DISM (Deployment Image Servicing and Management)
-* SFC (System File Checker)
-* Windows Task Manager
-* Built-in Windows utilities
+The system showed slow performance and elevated resource use. Investigation identified:
 
----
+- High CPU use from active background applications
+- High memory use across multiple processes
+- Several startup applications contributing to boot-time and background load
+- Accumulated temporary files
 
-## Analysis
+These observations supported a software and configuration-focused troubleshooting approach before considering hardware limitations.
 
-Using PowerShell, I analyzed system performance and identified:
+## Actions Performed
 
-* High CPU usage from background applications such as OneDrive, Grammarly, and ChatGPT
-* High memory usage from multiple running processes
-* Multiple unnecessary startup applications impacting boot time
-
-These findings indicated that system slowdown was primarily caused by resource-heavy background processes and startup bloat.
-
----
-
-## Actions Taken
-
-* Cleared temporary files using PowerShell
-* Removed system temp files to free disk space
-* Emptied recycle bin
-* Repaired system files using `sfc /scannow`
-* Restored Windows image health using `DISM /RestoreHealth`
-* Analyzed CPU usage using `Get-Process`
-* Analyzed memory usage using `Get-Process`
-* Identified unnecessary startup programs
-* Reset DNS cache and network stack
-
----
+- Reviewed CPU and memory use with Task Manager and PowerShell.
+- Identified unnecessary startup applications.
+- Cleared appropriate temporary files and emptied the Recycle Bin.
+- Ran System File Checker to verify and repair protected system files.
+- Ran DISM health-repair commands for the Windows component store.
+- Flushed the DNS resolver cache and reset relevant network components as part of troubleshooting.
+- Rechecked system behavior after maintenance.
 
 ## Results
 
-* Improved system responsiveness
-* Reduced background resource usage
-* Freed disk space
-* Verified system integrity with no corruption found
-* Identified and reduced unnecessary startup processes
+- Improved observed responsiveness
+- Reduced unnecessary background and startup activity
+- Recovered storage space
+- Completed system-integrity checks without unresolved corruption
+- Documented likely contributors and corrective actions
 
----
+Results reflect the observed test system and are not presented as universal performance guarantees.
 
-## Key Takeaway
+## Troubleshooting Approach Demonstrated
 
-This project demonstrated that system performance issues are often caused by a combination of software bloat, background processes, and system file health rather than hardware limitations alone.
-
----
+1. Establish symptoms and collect evidence.
+2. Identify resource-heavy processes and startup items.
+3. Use built-in repair tools before more disruptive changes.
+4. Apply targeted maintenance.
+5. Validate the system after changes.
+6. Document findings, actions, and limitations.
 
 ## Future Improvements
 
-* Automate cleanup tasks using a PowerShell script
-* Implement scheduled system maintenance
-* Monitor performance over time using logging and monitoring tools
+- Automate repeatable checks with a PowerShell script.
+- Capture before-and-after performance measurements.
+- Add Windows Performance Monitor data collection.
+- Schedule appropriate maintenance and monitoring tasks.
+- Define rollback steps for configuration changes.
+
+## Skills Demonstrated
+
+- Windows administration
+- PowerShell diagnostics
+- Performance troubleshooting
+- SFC and DISM
+- Root-cause analysis
+- Change validation and documentation
+
+[← Back to all projects](../)

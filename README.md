@@ -1,8 +1,8 @@
 # James Stahler | Cybersecurity, Systems & Network Portfolio
 
-CompTIA A+ certified IT professional and **B.S. Cybersecurity & Information Assurance student at Western Governors University (WGU)** building practical skills through documented labs in Windows administration, networking, infrastructure, and security operations.
+CompTIA A+ certified IT professional and WGU cybersecurity student building hands-on experience across Windows systems administration, networking, infrastructure support, and security operations.
 
-My current focus is preparing for **CompTIA Network+**, expanding my Windows Server and Active Directory experience, and developing the troubleshooting and documentation skills needed for entry-level systems, network, NOC, infrastructure support, and cybersecurity roles.
+This portfolio documents practical work with Windows Server and Active Directory, TCP/IP troubleshooting, packet analysis, system diagnostics, security monitoring, and governance and risk concepts. I am currently preparing for CompTIA Network+ while developing toward roles that connect reliable IT infrastructure with effective cybersecurity.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-James%20Stahler-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/james-stahler)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Live%20Website-2ea44f?logo=github)](https://jamesstahler.github.io/cybersecurity-portfolio/)
@@ -45,6 +45,12 @@ Built a Windows Server 2022 domain environment using VirtualBox. Configured Acti
 Completed and organized hands-on coursework covering governance, risk and compliance, incident response, network security, Linux, SQL, Python, SIEM, IDS, threat modeling, and vulnerability management.
 
 **Skills demonstrated:** NIST CSF, MITRE ATT&CK fundamentals, security controls, risk assessment, incident documentation, Linux permissions, SQL filtering, and Python foundations
+
+### 🔥 [Firewall Traffic Simulator](./projects/firewall-traffic-simulator)
+
+Built an in-progress Python simulation that generates network connection attempts, applies IP-and-port rules, logs allow/block decisions, raises activity alerts, and summarizes top talkers and blocked traffic.
+
+**Skills demonstrated:** Python, rule evaluation, file logging, counters, threshold alerts, traffic aggregation, and security-oriented problem solving
 
 ### 🪟 [Windows Security Log Analysis](./projects/windows-log-analysis)
 
@@ -97,9 +103,14 @@ Diagnosed Windows performance problems using PowerShell and built-in administrat
 
 ## 🎯 Career Interests
 
-Junior Systems Administrator • Infrastructure Support Specialist • NOC Technician • Network Support Technician • IT Support Specialist • Desktop Support Technician • Data Center Technician • SOC Analyst I • Cybersecurity Analyst
+- Systems administration and infrastructure support
+- Network, NOC, and data center operations
+- Windows Server, Active Directory, and endpoint support
+- Network troubleshooting and infrastructure security
+- Entry-level security operations and cybersecurity analysis
+- Long-term growth into systems engineering, network security, and operational technology security
 
-I am open to **on-site, hybrid, remote, contract, and relocation opportunities** that provide room to learn, contribute, and grow into advanced infrastructure or cybersecurity work.
+I am open to **on-site, hybrid, remote, contract, and relocation opportunities** where I can contribute practical troubleshooting experience while continuing to grow across systems, networking, and security.
 
 ---
 

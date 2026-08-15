@@ -1,44 +1,56 @@
-# Windows Security Log Analysis – Failed Login Investigation
+# Windows Security Log Analysis: Failed Logon Investigation
 
 ## Objective
-Analyzed Windows Security logs in Event Viewer to identify failed login attempts and understand how authentication events are recorded in Windows.
 
-## Tools Used
-- Windows Event Viewer
-- Windows Security Logs
+Use Windows Event Viewer to locate and interpret failed authentication activity and document a repeatable first-pass investigation workflow.
+
+## Environment and Tools
+
 - Windows 11
+- Windows Event Viewer
+- Windows Security log
 
-## What I Did
-- Opened Event Viewer and navigated to Windows Logs > Security
-- Reviewed security events related to login activity
-- Identified Event ID 4625 as a failed logon event
-- Examined event information such as logon type, account details, and audit status
+## Investigation Steps
 
-## Key Findings & Analysis
-- Located failed login attempts recorded as Event ID 4625
-- Observed Audit Failure entries associated with unsuccessful authentication attempts
-- Reviewed event metadata including time, log source, and task category
-- Confirmed Logon Type 2, which indicates an interactive logon attempt at the local system
+1. Opened Event Viewer and navigated to **Windows Logs > Security**.
+2. Filtered and reviewed events associated with authentication activity.
+3. Identified **Event ID 4625**, which records a failed account logon.
+4. Examined the timestamp, audit status, account fields, logon type, source details, and failure information.
+5. Checked surrounding activity for repeated failures or other indicators requiring escalation.
 
-## Threat Hunting Perspective
-- Reviewed failed authentication activity to understand how suspicious login behavior may appear in Windows logs
-- Looked for repeated failed logon attempts that could indicate unauthorized access attempts
-- No confirmed malicious activity was identified in this review, but the workflow reflects a real log investigation process
+## Findings
 
-## SOC Relevance
-This type of analysis reflects real SOC responsibilities, including:
-- Monitoring authentication logs
-- Investigating failed login attempts
-- Detecting possible unauthorized access activity
-- Supporting incident response through Windows event log analysis
+- Located an Audit Failure entry recorded as Event ID 4625.
+- Confirmed **Logon Type 2**, indicating an interactive attempt at the local system.
+- Reviewed the available account and event metadata to understand the context of the failure.
+- Did not identify confirmed malicious activity in the captured evidence.
 
-## Screenshots
+## Operational Relevance
 
-![Security Log Overview](./security-log-overview.png)
+Failed-logon analysis can support:
 
-![Event ID 4625 Selected](./event-4625-selected.png)
+- Windows endpoint troubleshooting
+- Account and access investigations
+- Detection of repeated authentication failures
+- Initial security triage
+- Incident documentation and escalation
 
-![Failed Login Event Details](./failed-login-details.png)
+A single failed logon does not prove malicious activity. Additional context—such as frequency, source, affected accounts, timing, and related events—is needed before drawing that conclusion.
 
-## Analyst Summary
-This project demonstrates the ability to review Windows Security logs, identify failed authentication events, and interpret host-based log data in a way that supports security monitoring and investigation workflows.
+## Evidence
+
+![Windows Security log overview](./security-log-overview.png)
+
+![Event ID 4625 selected](./event-4625-selected.png)
+
+![Failed logon event details](./failed-login-details.png)
+
+## Skills Demonstrated
+
+- Windows Event Viewer
+- Authentication-event analysis
+- Event ID interpretation
+- Evidence-based investigation
+- Technical documentation
+
+[← Back to all projects](../)
