@@ -8,6 +8,12 @@ Each project explains the objective, environment, tools, work performed, finding
 
 ## Project Directory
 
+### 🔥 [Firewall Traffic Simulator](./firewall-traffic-simulator)
+
+Created an in-progress Python simulation that evaluates generated connections against IP-and-port rules, records decisions, produces alerts, and summarizes traffic.
+
+**Skills demonstrated:** Python, rule evaluation, logging, counters, alert thresholds, and traffic reporting
+
 ### 🪟 [Windows Security Log Analysis](./windows-log-analysis)
 
 Investigated failed Windows logon activity in Event Viewer and interpreted Event ID 4625 and its authentication metadata.
