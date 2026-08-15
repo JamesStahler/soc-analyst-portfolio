@@ -1,71 +1,54 @@
-# Nmap Network Scanning Lab (Zenmap GUI)
+# Nmap Network Scanning Lab
 
 ## Objective
-The objective of this lab was to perform network reconnaissance using Nmap (via the Zenmap GUI) to identify open ports, detect running services, and better understand how systems expose network services during a scan.
 
----
+Use Nmap through the Zenmap interface to identify listening TCP ports and services on an authorized local Windows test system, then evaluate the practical meaning of the results.
 
-## Tools Used
-- Nmap (Zenmap GUI)
-- Windows Operating System
-- Localhost (127.0.0.1) test environment
+## Environment and Tools
 
----
+- Nmap with Zenmap
+- Windows computer
+- Localhost target: 127.0.0.1
 
-## Methodology
-I utilized the Zenmap graphical interface to perform an **Intense Scan** against the local machine (127.0.0.1). 
+## Method
 
-The Intense Scan profile includes:
-- TCP SYN scan (stealth scan)
-- Service/version detection
-- OS detection
-- Default script scanning
+I ran Zenmap’s **Intense Scan** profile against localhost. This profile combines several Nmap capabilities, which may include host discovery, TCP port scanning, service and version detection, OS-detection attempts, and default NSE scripts depending on target permissions and responses.
 
-This allowed for a more comprehensive view of the system’s network exposure compared to a basic scan.
-
----
-
-## Scan Configuration
-- **Target:** 127.0.0.1 (localhost)
-- **Profile Used:** Intense Scan
-- **Underlying Command:**
-
-- 
----
+Scanning localhost kept the activity within an authorized lab environment.
 
 ## Findings
-The scan identified the following open ports:
 
-- **135/tcp (RPC)** – Microsoft Remote Procedure Call service
-- **445/tcp (SMB)** – Microsoft Directory Services (file sharing)
+The scan identified two listening TCP ports:
 
-Most other scanned ports were closed, indicating limited exposed services on the system.
+| Port | Common service | Interpretation |
+|---|---|---|
+| 135/tcp | Microsoft RPC | Supports communication among Windows services and management components |
+| 445/tcp | Microsoft SMB | Supports Windows file sharing and related services |
 
----
+Most other scanned ports were closed, indicating a limited number of listening services in the observed results.
 
 ## Analysis
-Port 135 (RPC) is commonly used for communication between Windows services and can be leveraged for remote management.
 
-Port 445 (SMB) is used for file and printer sharing. This port is frequently targeted in cyberattacks (e.g., ransomware exploits like WannaCry) if improperly secured.
+Open ports are not vulnerabilities by themselves. Risk depends on the service configuration, software version, network exposure, authentication controls, patch status, and whether the service is necessary.
 
-The presence of these ports is typical for Windows systems, but they should be monitored and restricted when exposed to external networks.
+RPC and SMB are common in Windows environments but deserve careful control because externally exposed or unpatched services have historically been targeted by attackers.
 
----
+## Security and Administration Considerations
 
-## Security Considerations
-- Unnecessary services should be disabled when not in use
-- SMB access should be restricted to trusted networks
-- Firewalls should be configured to block external access to sensitive ports
-- Systems should be regularly updated to prevent known vulnerabilities
-
----
-
-## Conclusion
-This lab demonstrated how to use Nmap (via Zenmap) to perform effective network reconnaissance, identify exposed services, and evaluate potential security risks associated with open ports.
+- Disable unnecessary services.
+- Restrict RPC and SMB access to trusted systems and networks.
+- Block inappropriate external access with host and network firewalls.
+- Keep Windows and related services patched.
+- Monitor service exposure and investigate unexpected changes.
+- Validate findings before assigning vulnerability severity.
 
 ## Skills Demonstrated
-- Network Scanning (Nmap / Zenmap)
-- Port & Service Identification
-- OS & Service Enumeration
-- Basic Vulnerability Awareness
-- Network Security Analysis
+
+- Authorized host scanning
+- TCP port and service identification
+- Windows networking fundamentals
+- Exposure analysis
+- Secure configuration awareness
+- Technical documentation
+
+[← Back to all projects](../)
