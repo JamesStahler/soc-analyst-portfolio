@@ -46,6 +46,12 @@ Completed and organized hands-on coursework covering governance, risk and compli
 
 **Skills demonstrated:** NIST CSF, MITRE ATT&CK fundamentals, security controls, risk assessment, incident documentation, Linux permissions, SQL filtering, and Python foundations
 
+### 🔥 [Firewall Traffic Simulator](./projects/firewall-traffic-simulator)
+
+Built an in-progress Python simulation that generates network connection attempts, applies IP-and-port rules, logs allow/block decisions, raises activity alerts, and summarizes top talkers and blocked traffic.
+
+**Skills demonstrated:** Python, rule evaluation, file logging, counters, threshold alerts, traffic aggregation, and security-oriented problem solving
+
 ### 🪟 [Windows Security Log Analysis](./projects/windows-log-analysis)
 
 Investigated failed authentication activity in Windows Event Viewer, identified Event ID 4625, reviewed logon metadata, and documented a SOC-style analysis workflow.
