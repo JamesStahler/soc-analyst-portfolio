@@ -1,0 +1,49 @@
+name: Firewall Simulator CI
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "projects/firewall-traffic-simulator/**"
+      - ".github/workflows/firewall-simulator.yml"
+  pull_request:
+    paths:
+      - "projects/firewall-traffic-simulator/**"
+      - ".github/workflows/firewall-simulator.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Compile and run
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: projects/firewall-traffic-simulator
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Compile Python source
+        run: python -m py_compile firewall_checker.py
+
+      - name: Run simulator
+        run: |
+          rm -f FireWall.log
+          python firewall_checker.py > run_output.txt
+
+      - name: Verify generated output
+        run: |
+          test -s FireWall.log
+          test "$(wc -l < FireWall.log)" -eq 100
+          grep -q "SECURITY SUMMARY" run_output.txt
+          grep -q "Total Connections: 100" run_output.txt
