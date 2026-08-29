@@ -104,7 +104,7 @@ Diagnosed Windows performance problems using PowerShell and built-in administrat
 ## 🎯 Career Interests
 
 - Systems administration and infrastructure support
-- Network, NOC, and data center operations
+- NOC, and data center operations
 - Windows Server, Active Directory, and endpoint support
 - Network troubleshooting and infrastructure security
 - Entry-level security operations and cybersecurity analysis
