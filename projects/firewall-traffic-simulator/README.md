@@ -1,5 +1,7 @@
 # Firewall Traffic Simulator
 
+[![Firewall Simulator CI](https://github.com/JamesStahler/soc-analyst-portfolio/actions/workflows/firewall-simulator.yml/badge.svg)](https://github.com/JamesStahler/soc-analyst-portfolio/actions/workflows/firewall-simulator.yml)
+
 An in-progress Python project that simulates network connection attempts, evaluates them against simple IP-and-port rules, records allow/block decisions, and summarizes traffic activity.
 
 ## Current Features
@@ -44,7 +46,7 @@ All other simulated traffic is allowed by default.
 
 ## Project Status
 
-This project is under active development. Planned improvements include configurable rules, structured logging, input validation, reproducible test data, improved separation of concerns, and automated tests.
+This project is under active development. Planned improvements include configurable rules, structured logging, input validation, reproducible test data, improved separation of concerns and dedicated unit tests. The repository currently uses GitHub Actions to compile the source, run the simulator, and validate its generated output after relevant changes.
 
 ## Important Note
 

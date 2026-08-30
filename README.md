@@ -7,6 +7,7 @@ This portfolio documents practical work with Windows Server and Active Directory
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-James%20Stahler-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/james-stahler)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Live%20Website-2ea44f?logo=github)](https://jamesstahler.github.io/cybersecurity-portfolio/)
 [![GitHub](https://img.shields.io/badge/GitHub-JamesStahler-181717?logo=github)](https://github.com/JamesStahler)
+[![Firewall Simulator CI](https://github.com/JamesStahler/soc-analyst-portfolio/actions/workflows/firewall-simulator.yml/badge.svg)](https://github.com/JamesStahler/soc-analyst-portfolio/actions/workflows/firewall-simulator.yml)
 
 ---
 
